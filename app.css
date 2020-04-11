@@ -1,0 +1,72 @@
+h1 {
+    font-weight: 200;
+    text-transform: uppercase;
+    border-top: 5px solid #0099ff;
+    border-left: 5px solid #ffda09;
+    border-right: 5px solid #11ff09;
+    border-bottom: 5px solid #ff0946;
+    font-size: 22px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+body {
+    background-color: #f68086;
+    color: #5c0eee;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border: 3px solid rgb(255, 217, 0);
+    border-radius: 50%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img:hover {
+    border: 3px solid rgba(0, 255, 255, 0.842);
+}
+
+button {
+    margin: 20px auto 0;
+    padding: 10px 15px;
+    background-color: #ec8c77;
+    font-size: 14px;
+    text-align: center;
+    border-top: 5px solid #0099ff;
+    border-left: 5px solid #ffda09;
+    border-right: 5px solid #11ff09;
+    border-bottom: 5px solid #ff0946;    text-transform: uppercase;
+    color: #5900fd;
+    text-decoration: none;
+    letter-spacing: 3px ;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+}
+
+button:hover {
+    text-decoration: underline;
+    transition: 0.2s;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-top: 5px solid #0099ff;
+    border-left: 5px solid #ffda09;
+    border-right: 5px solid #15df0e;
+    border-bottom: 5px solid #ff0946;    background-color: #20ee4d;
+}
+
+p {
+    font-size: 20px;
+}
